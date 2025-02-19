@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <script src="javascriipt.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="header">Danielle Campbell
+           <span style="float: right;">
+            <nav>
+              <a class="top" href="./index.html">Home</a>
+              <a class="top" href="./about.html">About</a>
+              <a class="top" href="./portfolio.html">Portfolio</a>
+              <a class="top" href="./contact.html">Contact</a>
+            </nav>
+            </span> 
+        </h1> 
+    </header>
+    <link rel="stylesheet" href="style.css"/>
+   <div class="grid-container">
+    <section>
+        <section class="contactsection">
+        <h2 style="text-decoration: underline; margin-left: 5%;">Contact Me:</h2>
+        <!--Create a form with a submit buttont that collects name, email, message-->
+        <form action="./success.html" class="contactinfo">
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name"/>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/>
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <textarea rows="5"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit"/>
+            <br>
+            <br>
+        </form>
+        </section>
+    </section>
+    <section class="contactsection">
+        <h3 style="text-decoration: underline; margin-left: 5%;">Answer Question Below:</h3>
+        <!--Create Dropbox with submit button-->
+        <form action="./success.html" class="contactinfo">
+            <label for="info">Choose below how you found my page:</label>
+            <select name="selectedOption" id="info">
+                <option value="" disabled hidden selected>Please select one option</option>
+                <option value="facebook">Facebook</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="twitter">Twitter</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Click Here"/>
+        </form>
+    </section>
+    <section class="contactsection">
+        <h3 style="text-decoration: underline; margin-left: 5%;">Which Form of Contact Would You Prefer:</h3>
+        <!--Create radio button with submit button-->
+        <form action="./success.html" class="contactinfo">
+          <label for="phone">
+             <input type="radio" id="phone" name="phone"/>
+            Phone
+          </label>
+          <label for="email">
+             <input type="radio" id="email" name="email"/>
+            Email
+          </label>
+          <br>
+          <br>
+          <input type="submit" value="Submit"/>
+        </form>
+    </section>
+   </div>
+</body>
+</html>
