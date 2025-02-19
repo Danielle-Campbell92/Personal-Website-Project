@@ -129,6 +129,10 @@ html{
   border-style:ridge;
    }
 
+  .selfPhoto:hover {
+    transform: scale(1.2);
+  }
+
 .back-button{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: xx-large;
