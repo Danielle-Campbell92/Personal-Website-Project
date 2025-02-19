@@ -1,6 +1,7 @@
 //1.Create console.log with the string "Hello World!"
 //2.Ensure it is added to all pages.
 //3. Add details from Canvas.
+//4. Project Planned with Lyla
 
 //Step 1 & 2:
 console.log('Hello World!');
